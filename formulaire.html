@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="icon" type="png" href="images/header_logo.png">
+    <link rel="stylesheet" href="agenda.css">
+    <meta charset="UTF-8">
+    <title>formulaire</title>
+</head>
+
+<body>
+    <main>
+        <img src="images/background_formulaire.png" id="main_formulaire" alt="background agenda blur">
+        <form action="agenda.html" method="post">
+            <fieldset>
+                <legend>Nouvelle activité</legend>
+                <label for="titre">Ajouter un titre</label>
+                <input type="text" name="titre" id="titre">
+
+                <label for="type_activite">Type d'activité</label>
+
+                <label for="type_activite"><span class="symbol_li_au_boulot">&#9673</span>Boulot</label>
+                <input type="radio" name="type_activite" id="type_activite">
+
+                <label for="type_activite"><span class="symbol_li_a_loisir">&#9678</span>Loisir</label>
+                <input type="radio" name="type_activite" id="type_activite">
+
+                <label for="type_activite"><span class="symbol_li_a_la_maison">&#8858</span>Maison</label>
+                <input type="radio" name="type_activite" id="type_activite">
+
+                <label for="date_h">Date et heure</label>
+                <input type="date" name="date_h" id="date_h">
+                <input type="time" name="date_h" id="date_h">
+                <label for="description">Description</label>
+                <textarea id="description" cols="50" rowS="5"></textarea>
+                <br />
+
+                <details>
+                    <summary>Dupliquer l'activité </summary>
+                    <br />
+
+                    <label for="duplication">Lundi</label>
+                    <input type="checkbox" name="duplication" id="duplication">
+                    <label for="duplication">Mardi</label>
+                    <input type="checkbox" name="duplication" id="duplication">
+                    <label for="duplication">Mercredi</label>
+                    <input type="checkbox" name="duplication" id="duplication">
+                    <label for="duplication">Jeudi</label>
+                    <input type="checkbox" name="duplication" id="duplication">
+                    <label for="duplication">Vendredi</label>
+                    <input type="checkbox" name="duplication" id="duplication">
+                    <label for="duplication">Samedi</label>
+                    <input type="checkbox" name="duplication" id="duplication">
+                    <label for="duplication">Dimanche</label>
+                    <input type="checkbox" name="duplication" id="duplication">
+                    <br /> <br />
+
+                    <label for="repetition">Combien de fois</label>
+                    <br /> <br />
+
+                    <select id="repetition">
+                        <option>Toutes les semaines</option>
+                        <option>pendant 1 mois</option>
+                        <option>pendant 3 mois</option>
+                        <option>pendant 6 mois</option>
+                    </select>
+                    <br /> <br />
+
+                </details>
+
+                <div id="fin_formulaire">
+                    <a href="agenda.html">
+                        <p id="confirmer_formulaire">Confirmer</p>
+                    </a>
+                    <a href="agenda.html">
+                        <p id="annuler_formulaire">Annuler</p>
+                    </a>
+                </div>
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

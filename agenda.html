@@ -1,0 +1,3626 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="icon" type="png" href="images/header_logo.png">
+    <meta charset="UTF-8">
+    <link rel=stylesheet href="agenda.css">
+    <title>Agenda</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav_bar">
+            <img class="header_dimension_img" class="ombre_ronde" src="images/header_menu.png" alt="menu">
+            <img class="header_dimension_img" class="ombre_ronde" src="images/header_logo.png" alt="logo agenda">
+            <p class="p_title_font_30">Agenda</p>
+            <p>Aujourd'hui</p>
+            <p>
+                < </p> <p> >
+            </p>
+            <p class="p_title_font_30">Janvier</p>
+            <select id="periodicite">
+                <option value="Mois">Mois</option>
+                <option value="semaine">semaine</option>
+                <option value="jour">jour</option>
+            </select>
+            <img class="header_dimension_img" src="images/header_parameter.png" alt="parametres">
+            <img class="header_dimension_img" src="images/header_help.png" alt="bouton aide">
+            <div id="compte">
+                <p>Joris Verguldezoone</p>
+                <img class="img_compte_dimension" alt="dev signature Jojo" src="images/netero.png">
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section class="section_globale">
+            <aside class="aside_vertical">
+                <a href="formulaire.html">
+                    <div class=bouton_creer>
+
+                        <img src="images/logo_volé.png" alt="logo pour création jour planing">
+                        <p>Créer</p>
+
+                    </div>
+                </a>
+                <section class="aside_tableau">
+
+                    <table id="aside_table">
+                        <tr>
+                            <td>
+                                L
+                            </td>
+                            <td>
+                                M
+                            </td>
+                            <td>
+                                M
+                            </td>
+                            <td>
+                                J
+                            </td>
+                            <td>
+                                V
+                            </td>
+                            <td>
+                                S
+                            </td>
+                            <td>
+                                D
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ombre_ronde">
+                                1
+                            </td>
+                            <td class="ombre_ronde">
+                                2
+                            </td>
+                            <td class="ombre_ronde">
+                                3
+                            </td>
+                            <td class="ombre_ronde">
+                                4
+                            </td>
+                            <td class="ombre_ronde">
+                                5
+                            </td>
+                            <td class="ombre_ronde">
+                                6
+                            </td>
+                            <td class="ombre_ronde">
+                                7
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ombre_ronde">
+                                8
+                            </td>
+                            <td class="ombre_ronde">
+                                9
+                            </td>
+                            <td class="ombre_ronde">
+                                10
+                            </td>
+                            <td class="ombre_ronde">
+                                11
+                            </td>
+                            <td class="ombre_ronde">
+                                12
+                            </td>
+                            <td class="ombre_ronde">
+                                13
+                            </td>
+                            <td class="ombre_ronde">
+                                14
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ombre_ronde">
+                                15
+                            </td>
+                            <td class="ombre_ronde">
+                                16
+                            </td>
+                            <td class="ombre_ronde">
+                                17
+                            </td>
+                            <td class="ombre_ronde">
+                                18
+                            </td>
+                            <td class="ombre_ronde">
+                                19
+                            </td>
+                            <td class="ombre_ronde">
+                                20
+                            </td>
+                            <td class="ombre_ronde">
+                                21
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ombre_ronde">
+                                22
+                            </td>
+                            <td class="ombre_ronde">
+                                23
+                            </td>
+                            <td class="ombre_ronde">
+                                24
+                            </td>
+                            <td class="ombre_ronde">
+                                25
+                            </td>
+                            <td class="ombre_ronde">
+                                26
+                            </td>
+                            <td class="ombre_ronde">
+                                27
+                            </td>
+                            <td class="ombre_ronde">
+                                28
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ombre_ronde">
+                                29
+                            </td>
+                            <td class="ombre_ronde">
+                                30
+
+                            </td>
+                            <td class="ombre_ronde">
+                                31
+                            </td>
+                    </table>
+                    <article id="aside_reseaux_sociaux">
+                        <img class="header_dimension_img" src="images/social_media.png"
+                            alt="lien vers les réseaux sociaux">
+                        <p>Invitez vos amis</p>
+                    </article>
+
+                </section>
+
+            </aside>
+            <!--TABLEAU AGENDA-->
+            <section id="section_tableau_agenda">
+                <details open>
+                    <summary>Mois de Janvier : <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">31</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois de février : <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois de Mars: <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">31</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois d'Avril: <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois de Mai : <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">31</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois de Juin: <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois de Juillet: <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">31</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois d'Aout: <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">31</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois de Septembre: <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois d'Octobre: <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">31</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois de Novembre: <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+                <details>
+                    <summary>Mois de Décembre: <span class="symbol_li_au_boulot">&#9673</span>Boulot, <span
+                            class="symbol_li_a_loisir">&#9678</span>Loisir, <span
+                            class="symbol_li_a_la_maison">&#8858</span> Maison</summary>
+                    <article class="article_contains_tableau">
+                        <table class="tableau_agenda">
+
+                            <tr>
+                                <th class="th_tableau">
+                                    Lundi
+                                </th>
+                                <th class="th_tableau">
+                                    Mardi
+                                </th>
+                                <th class="th_tableau">
+                                    Mercredi
+                                </th>
+                                <th class="th_tableau">
+                                    Jeudi
+                                </th>
+                                <th class="th_tableau">
+                                    Vendredi
+                                </th>
+                                <th class="th_tableau">
+                                    Samedi
+                                </th>
+                                <th class="th_tableau">
+                                    Dimanche
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <span class="symbol_li_a_loisir">&#9678</span>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">1</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                        <p class="p_date_td">2</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">3</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">4</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">5</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">6</p>
+
+                                </td>
+
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">7</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">8</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">9</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">10</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">11</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">12</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">13</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">14</p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">15</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">16</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">17</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">18</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">19</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">20</p>
+
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">21</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">22</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">23</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">24</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Ping-pong avec Roxan</li>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>14h: Footsalle avec Ronaldo
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">25</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678 </span>temps libre</li>
+                                    </ul>
+                                    <p class="p_date_td">26</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>9h: révision</li>
+                                        <li><span class="symbol_li_au_boulot">&#9673 </span>14h: Braquage</li>
+                                    </ul>
+                                    <p class="p_date_td">27</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span> Dota 2 avec Pascal</li>
+                                    </ul>
+                                    <p class="p_date_td">28</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li>
+                                            <spa class="symbol_li_a_loisir">&#9678</spa>11h: Grasse matinée
+                                        </li>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>14h: Code update bannerlord
+                                        </li>
+                                    </ul>
+                                    <p class="p_date_td">29</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_a_loisir">&#9678</span>9h: Musculation</li>
+                                    </ul>
+                                    <p class="p_date_td">30</p>
+                                </td>
+                                <td class="td_tableau">
+                                    <ul>
+                                        <li><span class="symbol_li_au_boulot">&#9673</span>9h: Aller retour planete mars
+                                        </li>
+                                        <li><span class="symbol_li_a_la_maison">&#8858</span>14h: Bannerlord</li>
+                                    </ul>
+                                    <p class="p_date_td">31</p>
+                                </td>
+                            </tr>
+                        </table>
+                </details>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <img class="img_signature_dimension" alt="dev signature Jojo" src="images/netero.png">
+        <p class="signature">Hardjojo</p>
+
+    </footer>
+</body>
+<!--31 janvier 31 mars 31mai 31 juillet 31 aout 31 octobre 31 decembre  -->
+
+</html>
